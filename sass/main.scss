@@ -17,7 +17,7 @@ header{
         display: none;
     }
 
-    label{
+    & __label{
         display: none;
         width: 30px;
         height: 30px;
@@ -120,3 +120,38 @@ header{
         margin: 0;
     }
     }
+
+    footer{
+        background-color: rgb(168, 121, 213);
+        width: 100 px;
+        & --box{
+            width: auto;
+            height: 40px;
+            padding-top: 10px;
+            titulo{
+            margin-right: 150px;
+                h2{
+                padding-bottom: 10px;
+            }
+        }
+        }
+
+        & __container{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0;
+            padding-right: 0;
+                img{
+                padding: 0;
+                margin: 0;
+                image-orientation: inherit;
+                height: 45px;
+                width: 45px;
+                    }
+            row{
+                display: grid;
+                grid-template-rows: 55px;
+                padding-bottom: 15px;
+                } 
+            }
+        }    

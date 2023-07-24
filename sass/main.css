@@ -18,7 +18,7 @@ header {
 header #botonMenu {
   display: none;
 }
-header label {
+header __label {
   display: none;
   width: 30px;
   height: 30px;
@@ -103,4 +103,37 @@ header main div {
   #botonMenu:checked ~ .menu {
     margin: 0;
   }
+}
+footer {
+  background-color: rgb(168, 121, 213);
+  width: 100 px;
+}
+footer --box {
+  width: auto;
+  height: 40px;
+  padding-top: 10px;
+}
+footer --box titulo {
+  margin-right: 150px;
+}
+footer --box titulo h2 {
+  padding-bottom: 10px;
+}
+footer __container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0;
+  padding-right: 0;
+}
+footer __container img {
+  padding: 0;
+  margin: 0;
+  image-orientation: inherit;
+  height: 45px;
+  width: 45px;
+}
+footer __container row {
+  display: grid;
+  grid-template-rows: 55px;
+  padding-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
